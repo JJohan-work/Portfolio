@@ -66,14 +66,51 @@ main {
 }
 
 main>div {
-  height: 500px;
+  height: auto;
 }
 
 
 
 /* INTRO */
 
+#intro {
+  height: 400px;
+  padding: 50px;
+  background-color: #0dfd21;
+}
+
 #headshot {
   width: 200px;
   float: right;
+}
+
+
+
+/* ABOUT ME */
+
+#aboutme {
+  background-color: #0dfdf1;
+}
+
+#aboutme * {
+  margin:0px;
+}
+
+/* EPICODUS PROJECTS */
+
+#epic-project {
+  background-color: #0d59fd;
+  margin-top: 0;
+}
+
+.project {
+  width: 80vw;
+  height:600px;
+  background-color: orange;
+  margin-left: 10vw;
+}
+
+
+.linkbox {
+  border:5px solid red;
 }

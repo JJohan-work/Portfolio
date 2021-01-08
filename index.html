@@ -60,20 +60,75 @@
     </div>
   </nav>
   <main>
-    <div class="intro">
+    <div id="intro">
       <img src="img/PlaceholderHead.jfif" alt="PlaceHolder Img" id="headshot">
       <h2>Jonah Johansen Work Portfolio</h2>
-      <p>Welcome to my portfolio. My name is Jonah Johansen and in this site is a personal representation of my work, My projects I have done at Epicodus, My current and past personal projects and my own history and hobbies</p>
+      <p>Welcome to my portfolio. My name is Jonah Johansen and in this site is a personal representation of my work, projects I have done at Epicodus, current and past personal projects and my own history and hobbies</p>
 
       <p>Use the dropdown navbar on the left to easily navigate between sections. Links to my Github and LinkedIn are on the top.</p>
     </div>
 
+    <div id="aboutme">
+      <h2>About Me</h2>
+      <p>This section is unfinished and will be expanded later</p>
+    </div>
 
+    <div id="epic-project">
+      <h2>Epicodus Projects</h2>
+      <h4>These are projects and lessons I am currently building here at Epicodus</h4>
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel" data-bs-interval="false">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active project">
+            <h3>Wikipedia Reproduction</h3>
+            <h5>About</h5>
+            <p>This is a reproduction of the wikipedia homepage. This page was reproduced visually and does not copy any sections of code from wikipedia itself besides text blurbs from articles. Currently it does not have javascript or much interaction.<br> I Co-Authored this page with Daniel Adeyemi on the first week of Epicodus and have since forked from his repo to continue my own modifications</p>
+            <h5>Purpose</h5>
+            <p>The purpose of this project was to practice reproducing a site from visual and dev tools</p>
+            <h5>Goals</h5>
+            <p>My long term goal for this webpage would be to introduce interactability through javascript and add the ability to dynamically show articles pulled from a list of articles</p>
+            <div class="linkbox">
+              <a href="#">See Github Repo</a>
+              <a href="#">See on Github Pages</a>
+              <a href="#">See Wikipedia Home</a>
+            </div>
+          </div>
+          <div class="carousel-item project">
+            <p>Slide 2</p>
+          </div>
+          <div class="carousel-item project">
+            <p>Slide 3</p>
+          </div>
+          <div class="carousel-item project">
+            <p>Slide 4</p>
+          </div>
+          <div class="carousel-item project">
+            <p>Slide 5</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
 
-    <div class="aboutme">About Me</div>
-    <div class="epic-project">List of my epicodus projects</div>
-    <div class="per-project">List of my personal projects</div>
+    <div class="per-project">
+      <h2>My Personal Projects</h2>
+    </div>
+    
     <div class="background">My background in computers</div>
+
     <div class="hobby">My hobbies</div>
   </main>
   <footer>Bottom Header</footer>
