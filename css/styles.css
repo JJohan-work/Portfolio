@@ -68,3 +68,12 @@ main {
 main>div {
   height: 500px;
 }
+
+
+
+/* INTRO */
+
+#headshot {
+  width: 200px;
+  float: right;
+}
