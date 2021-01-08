@@ -12,9 +12,9 @@
   <header>
     <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="img/Hamburger_icon.svg.png" alt=""></a>
     <ul>
-      <li>My Github</li>
-      <li>My Linked-In</li>
-      <li>Profile Pic</li>
+      <li><a href="https://github.com/JJohan-work">My Github</a></li>
+      <li><a href="#">My Linked-In</a></li>
+      <li id="logo"></li>
     </ul>
   </header>
   <nav>
@@ -22,20 +22,19 @@
       <ol>
         <li><h3><a href="#intro">Portfolio</a></h3>
           <ul>
-            <li></li>
-            <li></li>
           </ul>
         </li>
         <li><h3><a href="#aboutme">About Me</a></h3>
           <ul>
-            <li></li>
+            <li>History</li>
             <li></li>
           </ul>
         </li>
         <li><h3><a href="#epic-project">Epicodus Project</a></h3>
           <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
+            <li>Wikipedia Reproduction</li>
+            <li>Vacation Website</li>
+            <li>Resort Website</li>
           </ul>
         </li>
         <li><h3><a href="#per-project">Personal Project</a></h3>
@@ -52,8 +51,6 @@
         </li>
         <li><h3><a href="#hobby">Hobbies</a></h3>
           <ul>
-            <li></li>
-            <li></li>
           </ul>
         </li>
       </ol>
@@ -78,7 +75,7 @@
       <h5>Why I am at Epicodus</h5>
       <p>While I have been learning about programming on my own I do not have any certifications or have taken any higher education CS degrees. I am hoping Epicodus can be a first step into the professional world of computers and computer design.</p>
       <h5>My Skills</h5>
-      <p>Profesionally I have worked as an: electrician, carpenter and building construction. In my own time Ive done extensive work on car mechanics and building simple computers and electronic devices however I have a long way to go before I can consider selling those skills</p>
+      <p>Professionally I have worked as an: electrician, carpenter and building construction. In my own time Ive done extensive work on car mechanics and building simple computers and electronic devices however I have a long way to go before I can consider selling those skills</p>
       <h5>My Learning Goals</h5>
       <p>My long term goal is to continue to expand my knowledge on computer science. I'd like to contine to become more comfortable with HTML,CSS and bootstrap for quick deployment of usable sites. </p>
     </div>
@@ -98,22 +95,42 @@
           <div class="carousel-item active project">
             <h3>Wikipedia Reproduction</h3>
             <h5>About</h5>
-            <p>This is a reproduction of the wikipedia homepage. This page was reproduced visually and does not copy any sections of code from wikipedia itself besides text blurbs from articles. Currently it does not have javascript or much interaction.<br> I Co-Authored this page with Daniel Adeyemi on the first week of Epicodus and have since forked from his repo to continue my own modifications</p>
+            <p>This is a reproduction of the wikipedia homepage. This page was reproduced visually and does not copy any sections of code from wikipedia itself besides text blurbs from articles. Currently it does not have javascript or much interaction. To see the original page this was based from click See Wikipedia Home at the bottom.<br> I Co-Authored this page with Daniel Adeyemi during the first week of Epicodus and have since forked from his repo to continue my own modifications</p>
             <h5>Purpose</h5>
             <p>The purpose of this project was to practice reproducing a site from visual and dev tools</p>
             <h5>Goals</h5>
             <p>My long term goal for this webpage would be to introduce interactability through javascript and add the ability to dynamically show articles pulled from a list of articles</p>
             <div class="linkbox">
-              <a href="#">See Github Repo</a>
-              <a href="#">See on Github Pages</a>
-              <a href="#">See Wikipedia Home</a>
+              <a href="https://github.com/JJohan-work/Wikipedia-Reproduction">See Github Repo</a>
+              <a href="https://jjohan-work.github.io/Wikipedia-Reproduction/index.html">See on Github Pages</a>
+              <a href="https://en.wikipedia.org/wiki/Main_Page">See Wikipedia Home</a>
             </div>
           </div>
           <div class="carousel-item project">
-            <p>Slide 2</p>
+            <h3>Vacation Website</h3>
+            <h5>About</h5>
+            <p>This code was developed for Epicodus Lessons 53 and 56 in the first week. It is a basic site showing several divs containing info on vacation sites. This is an extremely simple and static website that is unfinished and currently has filler text</p>
+            <h5>Purpose</h5>
+            <p>The purpose of this project was to introduce Bootstrap and continue practicing HTML and CSS</p>
+            <h5>Goals</h5>
+            <p>After Javascript courses I may expand this site to have the ability to add blogposts. However, it is likely I will replace this entry on my portfolio with a more complex example of my work as I continue the Epicodus course</p>
+            <div class="linkbox">
+              <a href="https://github.com/JJohan-work/Vacation-Site">See Github Repo</a>
+              <a href="#">See on Github Pages</a>
+            </div>
           </div>
           <div class="carousel-item project">
-            <p>Slide 3</p>
+            <h3>Resort Website</h3>
+            <h5>About</h5>
+            <p>This code was developed on Tuesday of the first week. It is a basic site with multiple pages and a navbar on the top cabable of navigating between them<br>I co-authored this page with Connor Burges on the first week of Epicodus.</p>
+            <h5>Purpose</h5>
+            <p>The purpose of this project was practicing HTML and CSS</p>
+            <h5>Goals</h5>
+            <p>This Site needs expansion. As I continue to learn Epicodus I will either replace or update this page with better code as I continue Epicodus.</p>
+            <div class="linkbox">
+              <a href="https://github.com/JJohan-work/Resort-Website">See Github Repo</a>
+              <a href="#">See on Github Pages</a>
+            </div>
           </div>
           <div class="carousel-item project">
             <p>Slide 4</p>
@@ -146,7 +163,47 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active project">
-            <p>Slide 1</p>
+            <h3>Tricorder</h3>
+            <h5>About</h5>
+            <p>This is a project I have been working on since the beginning of 2020. It is a small pocket PC with a clamshell design. It is made mostly of off the shelf parts from <a href="https://www.adafruit.com/">Adafruit</a>. It has two screens, USB cababilites, a software defined radio, GPS and upwards of 5 hours of battery. Its main computer is a Raspberry Pi Zero currently running mostly unchanged <a href="https://www.raspberrypi.org/software/">Raspberry Pi OS</a> and scripts written in python code for its peripherials. The external shell was modelled by me and is based off the shape of the Tricorder from Star Trek</p>
+            <h5>Purpose</h5>
+            <p>This is a continuation of past work in 3d design, 3d manufacturing and complex electronic devices. It is meant to be both a functional tool and a display of my current abilites</p>
+            <h5>Goals</h5>
+            <p>Currently I am looking to expand my coding skills to program both a user interface and more advanced uses from its multiple sensors and outputs.
+            </p>
+            <div class="container" id="image-line">
+              <div class="row">
+                <div class="col-3">
+                  <img src="img/Tricorder1.jpg" class="img-responsive" ></img>
+                </div>
+                <div class="col-3">
+                  <img src="img/Tricorder4.jpg" class="img-responsive" ></img>
+                </div>
+                <div class="col-3">
+                  <img src="img/Tricorder2.jpg" class="img-responsive" ></img>
+                </div>
+                <div class="col-3">
+                  <img src="img/Tricorder5.jpg" class="img-responsive" ></img>
+                </div>
+                <div class="col-3">
+                </div>
+                <div class="col-3">
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <img src="img/Tricorder6.jpg" class="img-responsive" ></img>
+                </div>
+                <div class="col-6">
+                  <img src="img/Tricorder3.jpg" class="img-responsive" ></img>
+                </div>
+              </div>
+            </div>
+            <div class="linkbox">
+              <a href="https://github.com/JJohan-work/Vacation-Site">See Github Repo</a>
+              <a href="#">See on Github Pages</a>
+            </div>
           </div>
           <div class="carousel-item project">
             <p>Slide 2</p>
