@@ -69,12 +69,14 @@ main>div {
   height: auto;
 }
 
-
+main h2 {
+  padding-top:50px;
+}
 
 /* INTRO */
 
 #intro {
-  height: 400px;
+  height: auto;
   padding: 50px;
   background-color: #0dfd21;
 }
@@ -113,4 +115,39 @@ main>div {
 
 .linkbox {
   border:5px solid red;
+}
+
+
+/* PERSONAL PROJECTS */
+
+.per-projects {
+
+}
+
+
+/* EXPERIENCE */
+
+#experience {
+  background-color: fuchsia;
+}
+
+/* HOBBIES */
+#hobby {
+  background-color: greenyellow;
+  height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 50px;
+  display: flex;
+  margin: 0px;
+  padding-right: 50px;
+  font-size: 0.75em;
+  justify-content: flex-end;
+}
+
+footer p {
+  align-self: flex-end;
 }
