@@ -1,3 +1,10 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family: 'Inter', sans-serif;
+  font-size:18px;
+}
+
 /* HEADER */
 header {
   background-color:slategray ;
@@ -18,14 +25,32 @@ header {
   height:100%;
 }
 
-header ul {
-  display: inline;
+#logo {
   float: right;
-  margin-right: 50px;
+  height:auto;
+  margin-right: 40px;
+  margin-top: 10px;
 }
 
-header li {
-  display:inline;
+#logo>a {
+  display: inline-block;
+  background-color: white;
+  border: 3px solid black;
+  border-radius:5px;
+  padding:3px;
+  padding-top: 0px;
+  height: 30px;
+}
+
+#logo>a:hover {
+  box-shadow: 5px 5px 3px darkblue;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
+#logo img {
+  height:15px;
 }
 
 /* NAV */
@@ -47,6 +72,11 @@ nav .collapse {
   height: 100vw;
 }
 
+nav .collapsing {
+  width: 20vw;
+  border-right:2px solid #5f5f5f;
+} 
+
 nav ol>* {
   list-style:none;
 }
@@ -59,42 +89,44 @@ nav ol h3 {
 main {
   position: relative;
   top: 50px;
-  width:100vw;
   z-index: 0;
+  
 }
 
 main>div {
   height: auto;
-  border-top:2px solid #5f5f5f;
-  padding-right:2vw;
+  border-bottom:2px solid #5f5f5f;
 }
 
-main h2 {
+h2 {
   padding-top:10px;
   padding-bottom: 5px;
   background-color: mediumturquoise;
-  margin-left:0px !important;
+  margin-left:0px;
   padding-left:35px;
   width: 50vw;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 0px;
 }
 
 /* INTRO */
 
 #intro {
   height: auto;
-  padding: 50px;
+  min-height: 150px;
   padding-left:0px;
   background-color: linen;
 }
 
 #intro p {
   padding-left: 50px;
+  padding-right: 10vw;
 }
 
 #headshot {
   width: auto;
   float: right;
+  position: relative;
+  bottom:50px;
   height:200px;
 }
 
@@ -104,14 +136,13 @@ main h2 {
 
 #aboutme {
   background-color: linen;
-}
-
-#aboutme * {
-  margin:0px;
+  min-height: 400px;
+  width:auto;
 }
 
 #aboutme>* {
   margin-left:2vw;
+  margin-right:2vw;
 }
 
 /* EPICODUS PROJECTS */
@@ -121,13 +152,9 @@ main h2 {
   margin-top: 0;
 }
 
-#epic-project>* {
-  margin-left:2vw;
-}
-
 .project {
   width: 80vw;
-  height:500px;
+  min-height:500px;
   margin-left:8vw;
   background-color: linen;
   border:1px solid rgb(175, 232, 254);
@@ -206,7 +233,7 @@ main h2 {
 /* FOOTER */
 
 footer {
-  height: 50px;
+  min-height: 50px;
   display: flex;
   margin: 0px;
   padding-right: 50px;
