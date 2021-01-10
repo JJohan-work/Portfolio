@@ -113,21 +113,23 @@ h2 {
 #intro {
   height: auto;
   min-height: 150px;
-  padding-left:0px;
   background-color: linen;
+  display: flex;
+  justify-content: space-around;
 }
 
-#intro p {
-  padding-left: 50px;
-  padding-right: 10vw;
+#introtext {
+  width:70%;
+
+}
+
+#headshotdiv {
+  width: 20%;
 }
 
 #headshot {
-  width: auto;
-  float: right;
-  position: relative;
-  bottom:50px;
-  height:200px;
+  width:100%;
+  padding-left:5%;
 }
 
 
