@@ -1,11 +1,21 @@
-# Jonah Johansen Work Portfolio
-#### *by Jonah Johansen*
+### Note To Epicodus instructor reviewing this page before January 18th 
+Fixed Resubmission requirements:
+* Added ```<em>``` tags to lines: 79 and 97
+* Added ```<strong>``` tags to 79
+* Fixed ```<p>``` Formatting
+
+* * *
 * * *
 
-## About
+# Work Portfolio
+#### *by Jonah Johansen*
+#### *Coding and Work Portfolio for my work at Epicodus*
+* * *
+
+## Description
 This is my portfolio of work for both Epicodus and my personal work. I will continue to update this as my coding education continues. Currently on Version 1 this portfolio is incomplete.
 
-To see the code submitted at 5pm download branch "fivepm".
+To see the code submitted at 5pm on 1/8/21 download branch "fivepm".
 
 * * *
 
@@ -19,15 +29,15 @@ To see the code submitted at 5pm download branch "fivepm".
 
 ## Setup instructions:  
 * Go to [Github Pages](https://jjohan-work.github.io/Portfolio) to see current Portfolio
-* Alt: Clone Repo and view site locally by opening index.html
+#### Alt
+* Clone Repo
+* Open index.html in browser
+
 * * *
 ## To Do:
-* General Code refactor of CSS to minimize repeats and ease future change
 * Better system for displaying images inside projects
-* Animation updates for dynamic elements
-* layout is currently not concrete and has minor visual glitches in certain situations
 * Improve code as I learn more
-
+* Add additional projects to epicodus and personal
 * * *
 ## Addition comments:
 * Created on 1/8/21  
@@ -39,3 +49,6 @@ To see the code submitted at 5pm download branch "fivepm".
 > *&copy; Jonah Johansen, 2021*
 
 Licensed under [MIT license](https://mit-license.org/)
+
+## Contact Information
+_Jonah Johansen: [Email](johansenjonah+git@gmail.com)_
